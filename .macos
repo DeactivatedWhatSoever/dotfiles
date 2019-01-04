@@ -30,6 +30,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerSwipeGesture -int 1
 
 # Increase sound quality for Bluetooth headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
@@ -97,5 +98,18 @@ defaults write com.apple.dock mru-spaces -bool false
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
 
+# Icon size of Dock items
+defaults write com.apple.dock tilesize -int 46
+
+# Dock magnification
+defaults write com.apple.dock magnification -bool true
+
+# Icon size of magnified Dock items
+defaults write com.apple.dock largesize -int 64
+
+# Dock orientation: 'left', 'bottom', 'right'
+defaults write com.apple.dock 'orientation' -string 'left'
 
