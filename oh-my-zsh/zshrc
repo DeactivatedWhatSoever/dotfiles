@@ -1,0 +1,25 @@
+## Path to your oh-my-zsh installation
+export SHELL="/bin/zsh"
+export ZSH=$HOME/.oh-my-zsh
+
+export LSCOLORS='exfxcxdxbxegedabagacad'
+export CLICOLOR=true
+
+## Set name of the theme to load.
+## Look in ~/.oh-my-zsh/themes/
+ZSH_THEME="dracula"
+
+## oh-my-zsh plugins
+plugins=(git git-it-on)
+
+## Setting vim as default editor
+export EDITOR="vim"
+
+## Adding z script path for easy cding...
+## Source: https://github.com/rupa/z
+. ~/z.sh
+
+clear
+
+## END
+#
