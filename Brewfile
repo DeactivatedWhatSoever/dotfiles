@@ -6,8 +6,7 @@ tap 'caskroom/eid'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
-tap 'mas-cli/tap'
-tap-pin 'mas-cli/tap'
+tap 'mas-cli/tap', pin: true
 
 # Binaries
 brew 'bat'
@@ -18,9 +17,6 @@ brew 'mas'
 brew 'trash'
 brew 'jenv'
 brew 'pyenv'
-
-# Development
-brew 'imagick'
 
 # Apps
 cask 'aerial'
