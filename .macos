@@ -114,6 +114,7 @@ defaults write com.apple.dock tilesize -int 46
 
 # Dock magnification
 defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock largesize -int 128
 
 # Icon size of magnified Dock items
 defaults write com.apple.dock largesize -int 64
