@@ -32,6 +32,8 @@ cask 'docker'
 cask 'jetbrains-toolbox'
 cask 'iterm2'
 cask 'visual-studio-code'
+cask 'clipy'
+cask 'spectacle'
 
 # Quicklook
 cask 'qlcolorcode'
