@@ -52,8 +52,6 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Things 3', id: 904280696 
-mas 'Bear', id: 1091189122
 mas 'Kindle', id: 405399194
 mas 'Notability', id: 736189492
 
