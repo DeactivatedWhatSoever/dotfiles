@@ -22,7 +22,6 @@ brew 'zplug'
 # Apps
 cask 'aerial'
 cask 'google-chrome'
-cask 'insomnia'
 cask 'java'
 cask 'slack'
 cask 'vagrant'
