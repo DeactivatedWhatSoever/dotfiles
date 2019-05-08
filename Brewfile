@@ -33,6 +33,7 @@ cask 'iterm2'
 cask 'visual-studio-code'
 cask 'clipy'
 cask 'spectacle'
+cask 'notion'
 
 # Quicklook
 cask 'qlcolorcode'
