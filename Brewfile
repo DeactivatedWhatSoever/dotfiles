@@ -18,6 +18,7 @@ brew 'trash'
 brew 'jenv'
 brew 'pyenv'
 brew 'zplug'
+brew 'zsh'
 
 # Apps
 cask 'aerial'
