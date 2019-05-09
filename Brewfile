@@ -35,6 +35,7 @@ cask 'visual-studio-code'
 cask 'clipy'
 cask 'spectacle'
 cask 'notion'
+cask 'gas-mask'
 
 # Quicklook
 cask 'qlcolorcode'
