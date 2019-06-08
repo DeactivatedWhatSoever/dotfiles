@@ -37,6 +37,7 @@ cask 'spectacle'
 cask 'notion'
 cask 'gas-mask'
 cask 'caffeine'
+cask 'emacs'
 
 # Quicklook
 cask 'qlcolorcode'
